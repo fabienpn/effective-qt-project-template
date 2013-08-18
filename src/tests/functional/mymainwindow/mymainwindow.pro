@@ -29,8 +29,8 @@ CONFIG(release, debug|release) {
         -lgui \
         -lcore
     unix:PRE_TARGETDEPS += \
-        $$PROJECT_DIR/lib/lbcore.a \
-        $$PROJECT_DIR/lib/lbgui.a
+        $$PROJECT_DIR/lib/libcore.a \
+        $$PROJECT_DIR/lib/libgui.a
     win32-msvc:PRE_TARGETDEPS += \
         $$PROJECT_DIR/lib/libcore.lib \
         $$PROJECT_DIR/lib/libgui.lib
